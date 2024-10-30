@@ -1,0 +1,244 @@
+/*Editor general*/
+* {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.casia-editor-h2 {
+  font-size: 26px;
+  color: #199CB9;
+  position: relative;
+}
+
+.casia-editor-h2:after {
+  content: '';
+  background-color: #199CB9;
+  width: 50px;
+  height: 2px;
+  display: block;
+  bottom: -8px;
+  position: absolute;
+}
+
+.casia-center {
+  text-align: center;
+}
+
+.casia-h2-black {
+  color: black;
+}
+
+.casia-h2-black:after {
+  background-color: black;
+}
+
+button {
+  background-color: #199CB9;
+  color: white;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.casia-editor-h2 {
+  font-size: 26px;
+  color: #199CB9;
+  position: relative;
+}
+
+.casia-bordered {
+  border: 1px solid black;
+}
+
+.casia-gray {
+  background-color: rgba(7, 0, 7, 0.79);
+}
+
+.casia-nested {
+  border: 1px solid black;
+}
+
+/*Showcase*/
+.casia-showcase__img {
+  float: left;
+  width: 20%;
+}
+
+.casia-showcase__number {
+  color: #199CB9;
+  margin-bottom: 10px;
+}
+
+.casia-showcase__text {
+  color: white;
+}
+
+.casia-showcase__info {
+  float: left;
+  width: 80%;
+  text-align: left;
+}
+
+.casia-showcase-container {
+  padding-top: 1em;
+}
+
+.casia-showcase__info {
+  float: left;
+  width: 80%;
+  padding-left: 8px;
+  text-decoration: left: 
+}
+
+.casia-showcase__img {
+  float: left;
+  width: 20%;
+}
+
+.casia-showcase__number {
+  color: #199CB9;
+}
+
+.casia-showcase__text {
+  color: white;
+}
+
+.casia-showcase {
+  padding-left: 32px;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.wp-block {
+  max-width: 964px;
+}
+
+/*Textblock*/
+.casia-textblock {
+  color: white;
+  margin-bottom: 39px;
+}
+
+.casia-textblock h2 {
+  margin: 0px;
+}
+
+.casia-textblock__upper {
+  background-color: #070007;
+  font-size: 18px;
+  padding: 30px 30px 10px 30px;
+}
+
+
+.casia-textblock__bottom {
+  padding: 10px 30px 30px 30px;
+  font-size: 14px;
+  background-color: rgba(7, 0, 7, 0.72);
+}
+
+/*Infoblock*/
+.casia-infoblock {
+  color: white;
+  width: 179px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 39px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.casia-infoblock p {
+  margin: 0;
+}
+
+.casia-infoblock__upper {
+  background-color: #070007;
+  padding-top: 12px;
+  font-size: 24px;
+  color: #199CB9;
+}
+
+.casia-infoblock__upper p {
+  padding-bottom: 4px;
+}
+
+.casia-infoblock__bottom {
+  background: rgba(7, 0, 7, 0.72);
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+/*Nested*/
+.casia-nested {
+  text-align: center;
+  margin-bottom: 39px;
+}
+
+.casia-nested.casia-nested--nomargin {
+  margin-bottom: 0;
+}
+
+.casia-nested div[data-type="casia/infoblock"] {
+  display: inline-block;
+}
+
+.casia-nested div[data-type="core/image"] {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.casia-nested .editor-block-list__block {
+  display: inline-block;
+  width: 24% !important;
+  max-width: 24% !important;
+}
+
+/*Griditem*/
+.casia-griditem-link {
+  text-decoration: none;
+}
+
+.casia-griditem {
+  margin-bottom: 45px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: 216px;
+  display: inline-block;
+  vertical-align: top;
+  min-height: 205px;
+  background-color: rgba(7, 0, 7, 0.79);
+  border-top: 4px solid #199CB9;
+  max-width: 100%;
+}
+
+.casia-griditem p {
+  white-space: pre-line;
+}
+
+.casia-griditem img{
+  width: 100%;
+}
+
+.block-editor .block-editor-plain-text {
+  border: 1px solid #8d96a0;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+}
+
+.casia-slider__p,
+.edit-post-sidebar p.casia-slider__p {
+  margin: 15px 0 0 0;
+}

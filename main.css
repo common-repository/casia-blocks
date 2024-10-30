@@ -1,0 +1,253 @@
+.casia-text-align-center {
+  text-align: center;
+}
+
+.casia-gray {
+  background-color: rgba(7, 0, 7, 0.79);
+}
+
+.casia-h2-black {
+  color: black;
+}
+
+.casia-h2-black:after {
+  background-color: black;
+}
+
+.casia-blue {
+  color: cadetblue;
+}
+
+.casia-showcase span {
+  color: white
+}
+
+.casia-slider {
+  margin-bottom: 39px;
+}
+
+.casia-showcase__item {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.casia-showcase__img {
+  text-align: center;
+}
+
+.casia-showcase p {
+  margin: 0;
+}
+
+.casia-text__upper {
+  background-color: rgba(7, 0, 7, 0.89);
+  padding: 30px;
+}
+
+.casia-text__bottom {
+  background-color: rgba(7, 0, 7, 0.72);
+  padding: 30px;
+}
+
+
+/*Showcase*/
+.casia-showcase-container {
+    margin-bottom: 39px;
+}
+
+.casia-showcase {
+  margin-top: 1em;
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+  margin-bottom: 25px;
+  white-space: pre-line;
+}
+
+.casia-showcase__info {
+  float: left;
+  width: 80%;
+  padding-left: 8px;
+  text-align: left;
+}
+
+.casia-showcase__img {
+  float: left;
+  width: 20%;
+}
+
+.casia-showcase__number {
+  color: #199CB9;
+}
+
+.casia-showcase p.casia-showcase__number {
+  margin-bottom: 10px;
+}
+
+.casia-showcase__text {
+  color: white;
+}
+
+.casia-showcase {
+  padding-left: 32px;
+}
+
+/*Textblock*/
+.casia-textblock {
+  color: white;
+  margin-bottom: 39px;
+  margin-top: 18px;
+  white-space: pre-line;
+}
+
+.casia-textblock.casia-textblock--search {
+  white-space: initial;
+}
+
+.casia-textblock h2 {
+  margin: 0px;
+}
+
+.casia-textblock__upper {
+  background-color: #070007;
+  font-size: 18px;
+  padding: 30px 30px 10px 30px;
+}
+
+.casia-textblock.casia-textblock--search .casia-textblock__upper {
+  padding-bottom: 30px;
+}
+
+.casia-textblock__bottom {
+  padding: 10px 30px 30px 30px;
+  font-size: 14px;
+  background-color: rgba(7, 0, 7, 0.72);
+}
+
+.casia-textblock__bottom * {
+  color: white;
+}
+
+/*Infoblock*/
+.casia-infoblock {
+  color: white;
+  width: 179px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 39px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.casia-infoblock p {
+  margin: 0;
+}
+
+.casia-infoblock__upper {
+  background-color: #070007;
+  padding-top: 12px;
+  font-size: 24px;
+  color: #199CB9;
+}
+
+.casia-infoblock__upper p {
+  padding-bottom: 4px;
+}
+
+.casia-infoblock__bottom {
+  background: rgba(7, 0, 7, 0.72);
+  padding-top: 26px;
+  padding-bottom: 26px;
+  white-space: pre-line;
+}
+
+/*Nested*/
+.casia-nested {
+  text-align: center;
+  margin-bottom: 39px;
+}
+
+.casia-nested.casia-nested--nomargin {
+  margin-bottom: 0;
+}
+
+.casia-nested div[data-type="casia/infoblock"] {
+  display: inline-block;
+}
+
+.casia-nested .wp-block-image {
+  display: inline-block;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #199CB9;
+  position: relative;
+}
+
+h1:after {
+  content: '';
+  background-color: #199CB9;
+  width: 50px;
+  height: 2px;
+  display: block;
+  bottom: -8px;
+  position: absolute;
+}
+
+/*Griditem*/
+.casia-griditem-link {
+  text-decoration: none;
+}
+
+.casia-griditem-container {
+  text-align: center;
+}
+
+.casia-griditem {
+  margin-bottom: 45px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: 216px;
+  display: inline-block;
+  vertical-align: top;
+  min-height: 205px;
+  background-color: rgba(7, 0, 7, 0.79);
+  border-top: 4px solid #199CB9;
+  max-width: 100%;
+}
+
+.casia-griditem p {
+  white-space: pre-line;
+}
+
+.casia-griditem-link:hover {
+    opacity: .8;
+}
+
+.casia-griditem img{
+  width: 100%;
+}
+
+.casia-griditem__img-placeholder {
+  width: 192px;
+  height: 128px;
+}
+
+@media (max-width: 673px) {
+  .casia-showcase__info {
+    padding-left: 8px;
+  }
+
+  .casia-showcase__img {
+    float: initial;
+  }
+
+  .casia-showcase {
+    padding-left: 0;
+  }
+}
